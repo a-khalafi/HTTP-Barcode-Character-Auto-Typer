@@ -21,30 +21,49 @@ Using with Android Barcode Scanner
   2. Go to Settings → Forward scans
   3. Enable Forward scans and Get mode and simply add content
   4. In URL to forward to , enter:
-http://<your-pc-ip>:<port>/?content=
-eg: http://192.168.1.100:5000/?content=
+          
+     example: http://192.168.1.100:5000/?content=
+     
   Make sure your PC and phone are connected to the same Wi-Fi network
+  
   Run the app on your PC (make sure about port and host)
+  
   Scan a barcode using Binary Eye → the digits will be typed automatically
     
 Settings:
+
 Right-click the system tray icon to open Settings
+
 You can change:
+
   Host IP (default: 0.0.0.0)
+  
   Port (default: 5000)
+  
   Slice logic (default: \[:])
+  
   Slice logic is applied to digits only. For example:
+  
       [-5:] → last 5 digits
+      
       [:4] → first 4 digits
+      
       [2:6] → digits 3 to 6
   
 Testing Without a Scanner:
+
 With Browser:
+
   http://localhost:5000/?content=ABC123456
+  
 With curl:
+
   curl "http://localhost:5000/?content=ABC123456"
 
 🙋‍♂️ Author: Amin Khalafi
+
 amin_khalafi@yahoo.com
+
 Hardware \& Embedded Systems Specialist
+
 Reach out via GitHub or email if you'd like to collaborate!   
