@@ -17,15 +17,15 @@ You can use standalone barcodescanner.exe or you can
 Using with Android Barcode Scanner
   You can use any barcode scanner app that supports HTTP forwarding, such as Binary Eye.
   Setup Steps (Binary Eye):
-    1. Install Binary Eye from the Play Store
-    2. Go to Settings → Forward scans
-    3. Enable Forward scans and Get mode and simply add content
-    4. In URL to forward to , enter:
-        http://<your-pc-ip>:<port>/?content=
-        eg: http://192.168.1.100:5000/?content=
-    Make sure your PC and phone are connected to the same Wi-Fi network
-    Run the app on your PC (make sure about port and host)
-    Scan a barcode using Binary Eye → the digits will be typed automatically
+  1. Install Binary Eye from the Play Store
+  2. Go to Settings → Forward scans
+  3. Enable Forward scans and Get mode and simply add content
+  4. In URL to forward to , enter:
+    http://<your-pc-ip>:<port>/?content=
+    eg: http://192.168.1.100:5000/?content=
+  Make sure your PC and phone are connected to the same Wi-Fi network
+  Run the app on your PC (make sure about port and host)
+  Scan a barcode using Binary Eye → the digits will be typed automatically
     
 Settings:
 Right-click the system tray icon to open Settings
