@@ -33,6 +33,7 @@ Using with Android Barcode Scanner
 Settings:
 
 Right-click the system tray icon to open Settings
+<img width="257" height="171" alt="image" src="https://github.com/user-attachments/assets/1ef76981-af5c-47b1-907c-32cf3b4c7475" />
 
 You can change:
 
