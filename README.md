@@ -16,6 +16,7 @@ You can use standalone barcodescanner.exe or you can
 
 Using with Android Barcode Scanner
   You can use any barcode scanner app that supports HTTP forwarding, such as Binary Eye.
+  
   Setup Steps (Binary Eye):
   1. Install Binary Eye from the Play Store
   2. Go to Settings → Forward scans
