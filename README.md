@@ -71,6 +71,4 @@ With curl:
 
 amin_khalafi@yahoo.com
 
-Hardware \& Embedded Systems Specialist
-
 Reach out via GitHub or email if you'd like to collaborate!   
